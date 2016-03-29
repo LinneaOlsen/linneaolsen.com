@@ -1,0 +1,83 @@
+.fullscreen-faded {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.7);
+}
+
+
+.hidden {
+	display: none;
+}
+
+
+.pop-up {
+	position: absolute;
+	background-color: #FFF;
+	width: 64%;
+	left: 18%;
+	height: 80%;
+	border-radius: 10px;
+	padding: 4%;
+	top: 10%;
+}
+
+.popup-inner {
+	overflow: auto;
+	height: 100%;
+}
+
+.popup-inner::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.popup-inner::-webkit-scrollbar:vertical {
+    width: 11px;
+}
+
+.popup-inner::-webkit-scrollbar:horizontal {
+    height: 11px;
+}
+
+.popup-inner::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    border: 2px solid white; /* should match background, can't be transparent */
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.popup-inner::-webkit-scrollbar-track { 
+    background-color: #fff; 
+    border-radius: 8px; 
+} 
+
+.pop-up p {
+	overflow: scroll;
+	height: 80%;
+}
+
+.pop-up h3 {
+	padding-bottom: 20px;
+	font-size: 1.5em;
+}
+
+#project {
+    padding-bottom: 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+.pop-up .popup-img {
+	width: 100%;
+	padding-bottom: 10%;
+}
+
+.pop-up .popup-images {
+	float: left;
+	width: 30%;
+}
+
+.pop-up .popup-text {
+	float: right;
+	width: 65%;
+}
